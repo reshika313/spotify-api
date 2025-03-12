@@ -1,7 +1,7 @@
 #1. importing libraries needed
 import requests
 
-#2. the acccess token generated through your OAuth process
+#2. the acccess token generated through your OAuth process from previous script
 ACCESS_TOKEN = " "
 
 #3. spotify artist ID for Travis Scott
