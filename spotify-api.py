@@ -19,7 +19,7 @@ token_url = "https://accounts.spotify.com/api/token"
 
 #set up headers for request
 headers = {
-    "Authorization": f"Basic {auth_base64}",
+    "Authorization": "Basic" + auth_base64,
     "Content-Type": "application/x-www-form-urlencoded"
 }
 
