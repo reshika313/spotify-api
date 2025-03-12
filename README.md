@@ -5,4 +5,8 @@
   
 2. Defining the Spotify API credentials from my account and creating an app
 
-3. Combining client credentials into a single string in the format client_id:client_secret
+3. Combining client credentials into a single string in the format client_id:client_secret as API requires this format
+
+4. Converting the string into bytes as this is the format base64 works in
+
+5. 
