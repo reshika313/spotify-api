@@ -4,14 +4,14 @@ import requests
 ACCESS_TOKEN = " "
 
 # Spotify Artist ID for Travis Scott
-artist_id = "0Y5tJX1MQlPlqiwlOH1tJY"  # Correct artist ID for Travis Scott
+artist_id = "0Y5tJX1MQlPlqiwlOH1tJY" 
 
 # Spotify API URL for the artist
-artist_url = f"https://api.spotify.com/v1/artists/{artist_id}"
+artist_url = f"https://api.spotify.com/v1/artists/" + artist_id
 
 # Headers for the request, including the Authorization token
 headers = {
-    "Authorization": f"Bearer {ACCESS_TOKEN}"
+    "Authorization": "Bearer" + ACCESS_TOKEN
 }
 
 # Make the GET request
