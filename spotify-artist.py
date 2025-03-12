@@ -11,7 +11,7 @@ artist_url = f"https://api.spotify.com/v1/artists/" + artist_id
 
 # Headers for the request, including the Authorization token
 headers = {
-    "Authorization": "Bearer" + ACCESS_TOKEN
+    "Authorization": "Bearer " + ACCESS_TOKEN
 }
 
 # Make the GET request
