@@ -1,3 +1,6 @@
+# Using Spotify API to receive an access token and using the token to get artist details
+These two scripts are using POST and GET request to receive an access token and then using that token to receive details on a specified artist
+
 # Using Python to request access token from Spotify's API using my client credentials
 1. Importing the libraries needed
    - requests sends a HTTP request to APIs, a message is sent by the client to a server to request data, POST request
