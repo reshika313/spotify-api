@@ -9,7 +9,7 @@ client_secret = " "
 auth_string = client_id + ":" + client_secret
 
 #convert string to bytes
-auth_bytes = auth_string.encode("utf-8")
+auth_bytes = auth_string.encode("utf-8") #utf- 8 converts string into bytes
 
 #encode the bytes in base64
 auth_base64 = base64.b64encode(auth_bytes).decode("utf-8")
