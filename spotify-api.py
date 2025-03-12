@@ -6,7 +6,7 @@ client_id = " "
 client_secret = " "
 
 #combine credentials into a single string
-auth_string = f"{client_id}:{client_secret}"
+auth_string = client_id + ":" + client_secret
 
 #convert string to bytes
 auth_bytes = auth_string.encode("utf-8")
